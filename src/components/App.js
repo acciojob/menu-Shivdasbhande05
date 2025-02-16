@@ -1,3 +1,4 @@
+import React from "react";
 import Heading from "./Heading";
 import Menu from "./Menu";
 import { useState } from "react";
