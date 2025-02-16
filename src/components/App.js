@@ -1,5 +1,5 @@
-import Heading from "./Components/Heading";
-import Menu from "./Components/Menu";
+import Heading from "./Heading";
+import Menu from "./Menu";
 import { useState } from "react";
 
 function App() {
