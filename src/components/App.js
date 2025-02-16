@@ -53,7 +53,7 @@ function App() {
   const filteredItems = activeCategory === "All" ? menuItems : menuItems.filter(item => item.category === activeCategory);
 
   return (
-    <>
+    <div id="main">
       <Heading />
       <div>
         <button onClick={() => setActiveCategory("All")}>All</button>
@@ -62,7 +62,7 @@ function App() {
         <button id="filter-btn-3" onClick={() => setActiveCategory("Shakes")}>Shakes</button>
       </div>
       <Menu items={filteredItems}/>
-    </>
+    </div>
   );
 }
 
