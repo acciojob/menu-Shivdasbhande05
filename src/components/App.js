@@ -59,7 +59,7 @@ function App() {
       <Heading />
       <div>
         <button onClick={() => setActiveCategory("All")}>All</button>
-        <button id="filter-btn-1" onClick={() => setActiveCategory("Breakfast")}>Breakfast</button>
+        <button id="filter-btn-1" data-test-id="filter-btn-1" onClick={() => setActiveCategory("Breakfast")}>Breakfast</button>
         <button id="filter-btn-2" onClick={() => setActiveCategory("Lunch")}>Lunch</button>
         <button id="filter-btn-3" onClick={() => setActiveCategory("Shakes")}>Shakes</button>
       </div>
